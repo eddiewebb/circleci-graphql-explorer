@@ -18,13 +18,11 @@ In the project directory, you can run:
 
 Its the first thing you need to do after cloning, but only once.
 
-### `REACT_APP_SECRET=${CIRCLECI_API_TOKEN} yarn start`
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-
-**IMPORTANT** this app needs your API token, replace the VAR name in the start step above if its not available as `CIRCLECI_API_TOKEN`
 
 
 ### Learn GraphQL (for CircleCI API)
