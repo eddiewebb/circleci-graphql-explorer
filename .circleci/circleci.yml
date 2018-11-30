@@ -1,0 +1,21 @@
+version: 2.1
+workflows:
+	publish: 
+    jobs:
+      publish:
+        filters:
+          branches:
+            ignore: gh-pages
+
+
+jobs:
+  publish:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - run:
+          command: yarn install
+      - run:
+          command: yarn add --dev gh-pages
+      - run:
+          command: yarn deploy
