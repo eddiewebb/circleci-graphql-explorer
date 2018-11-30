@@ -17,7 +17,7 @@ function graphQLFetcher(graphQLParams) {
 
 
 
-ReactDOM.render(<GraphiQL fetcher={graphQLFetcher} />, document.body);
+ReactDOM.render(<GraphiQL fetcher={graphQLFetcher} defaultQuery={'{ __schema { types { name } }}'} />, document.body);
 
 
 

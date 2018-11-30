@@ -1,15 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CircleCI Interactive Query Explorer (graphiql)
+
+## Usage
+
+![Gif showing the autocomplete querying](/assets/self.query)
+
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `REACT_APP_SECRET=${CIRCLECI_API_TOKEN} yarn start`
+### `yarn install`
 
-**IMPORTANT** this app needs your API token, reference the VAR name in the start step above if its not available as `CIRCLECI_API_TOKEN`
+Its the first thing you need to do after cloning, but only once.
+
+### `REACT_APP_SECRET=${CIRCLECI_API_TOKEN} yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+**IMPORTANT** this app needs your API token, replace the VAR name in the start step above if its not available as `CIRCLECI_API_TOKEN`
 
 
 ### Learn GraphQL (for CircleCI API)
