@@ -23,9 +23,7 @@ Its the first thing you need to do after cloning, but only once.
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-
-**IMPORTANT** this app needs your API token, replace the VAR name in the start step above if its not available as `CIRCLECI_API_TOKEN`
-
+If you omit the secret you will only see an input asking for the value.
 
 ### Learn GraphQL (for CircleCI API)
 

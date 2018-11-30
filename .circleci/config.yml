@@ -1,0 +1,25 @@
+version: 2.1
+workflows:
+  publish: 
+    jobs:
+      - publish:
+          filters:
+            branches:
+              ignore: gh-pages
+
+
+jobs:
+  publish:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run:
+          command: yarn install
+      - run:
+          name: Deploy to GH Pages
+          command: |
+            yarn add --dev gh-pages
+            git config --global user.email "ollitech@gmail.com"
+            git config --global user.name "Eddie Webb"
+            yarn deploy

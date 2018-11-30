@@ -13,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,5 +26,9 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "https://circleci.com"
+  "proxy": "https://circleci.com",
+  "homepage": "http://eddiewebb.github.io/circleci-graphql-explorer",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
