@@ -17,8 +17,6 @@ jobs:
       - run:
           command: yarn install
       - run:
-          command: 
-      - run:
           name: Deploy to GH Pages
           command: |
             yarn add --dev gh-pages
