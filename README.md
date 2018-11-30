@@ -14,16 +14,18 @@ This makes it easy to explore the objects, arguments, and fields
 
 In the project directory, you can run:
 
-### `REACT_APP_SECRET=${CIRCLECI_API_TOKEN} yarn install`
+### `yarn install`
 
 Its the first thing you need to do after cloning, but only once.
 
-If you omit the secret you will only see an input asking for the value.
 
-### `yarn start`
+### `REACT_APP_SECRET=${CIRCLECI_API_TOKEN} yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+If you omit the secret you will only see an input asking for the value.
 
 
 
