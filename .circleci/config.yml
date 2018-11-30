@@ -1,11 +1,11 @@
 version: 2.1
 workflows:
-	publish: 
+  publish: 
     jobs:
-      publish:
-        filters:
-          branches:
-            ignore: gh-pages
+      - publish:
+          filters:
+            branches:
+              ignore: gh-pages
 
 
 jobs:
