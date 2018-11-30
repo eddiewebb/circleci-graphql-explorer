@@ -13,6 +13,7 @@ jobs:
     docker:
       - image: circleci/node:10
     steps:
+      - checkout
       - run:
           command: yarn install
       - run:
