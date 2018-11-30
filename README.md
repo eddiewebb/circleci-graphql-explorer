@@ -2,6 +2,10 @@
 
 ## Usage
 
+This react/node app wraps our graphql endpoint with built-in introspection and auto-completion.
+
+This makes it easy to explore the objects, arguments, and fields
+
 ![Gif showing the autocomplete querying](/assets/self.query)
 
 
