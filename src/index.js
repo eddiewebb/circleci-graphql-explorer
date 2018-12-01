@@ -56,7 +56,7 @@ function graphQLFetcher(graphQLParams) {
 }
 
 function render(){
-	ReactDOM.render(<GraphiQL fetcher={graphQLFetcher} defaultQuery={'{ __schema { types { name } }}'} />, document.getElementById('iql'));
+	ReactDOM.render(<GraphiQL fetcher={graphQLFetcher} defaultQuery={defaultQuery} />, document.getElementById('iql'));
 }
 
 
