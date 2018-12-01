@@ -28,6 +28,23 @@ class AskForToken extends React.Component {
   }
 }
 
+var defaultQuery = `
+# me is a reserved keyword for active user.
+{ 
+	me{
+    id
+    # avatar url uses GitHub userID 
+    avatarURL
+    name
+    accounts{
+      # should == orgs in picker
+      totalCount
+      # can get account IDs through edges
+      # try it out!
+    }
+  }
+}
+`
 
 
 function graphQLFetcher(graphQLParams) {
@@ -39,7 +56,7 @@ function graphQLFetcher(graphQLParams) {
 }
 
 function render(){
-	ReactDOM.render(<GraphiQL fetcher={graphQLFetcher} defaultQuery={'{ __schema { types { name } }}'} />, document.getElementById('iql'));
+	ReactDOM.render(<GraphiQL fetcher={graphQLFetcher} defaultQuery={defaultQuery} />, document.getElementById('iql'));
 }
 
 
@@ -48,7 +65,7 @@ function render(){
 
 
 
-var token = process.env.REACT_APP_SECRETs;
+var token = process.env.REACT_APP_SECRET;
 
 if(token){
 	render();
