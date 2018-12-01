@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/circleci-graphql-explorer/static/media/getAutocompleteSuggestions.js.7f98f032.flow"
   },
   {
-    "revision": "ca2599009e3a7569bb89",
+    "revision": "61264d3d87c0d9ed9871",
     "url": "/circleci-graphql-explorer/static/css/main.b7f240b6.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/circleci-graphql-explorer/static/media/autocompleteUtils.js.4ce7ba19.flow"
   },
   {
-    "revision": "ca2599009e3a7569bb89",
-    "url": "/circleci-graphql-explorer/static/js/main.ca259900.chunk.js"
+    "revision": "61264d3d87c0d9ed9871",
+    "url": "/circleci-graphql-explorer/static/js/main.61264d3d.chunk.js"
   },
   {
     "revision": "4dbec62f1d8e8417afb9cbd19f1268c3",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/circleci-graphql-explorer/static/css/1.590fe2ce.chunk.css"
   },
   {
-    "revision": "1501ba9b54223b8fd62a7aabeb2c156b",
+    "revision": "bd4805a7f0d03cfd52c4c21547c76d85",
     "url": "/circleci-graphql-explorer/index.html"
   }
 ];
