@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/circleci-graphql-explorer/static/media/getAutocompleteSuggestions.js.7f98f032.flow"
   },
   {
-    "revision": "61264d3d87c0d9ed9871",
-    "url": "/circleci-graphql-explorer/static/css/main.b7f240b6.chunk.css"
+    "revision": "4bae0d9fc404aef0fd94",
+    "url": "/circleci-graphql-explorer/static/css/main.cb1f0153.chunk.css"
   },
   {
     "revision": "02c24280c5e4a7eb3c6cfcb079a8f1e3",
     "url": "/circleci-graphql-explorer/static/media/index.js.02c24280.flow"
   },
   {
-    "revision": "95afe2346e56418fa251",
-    "url": "/circleci-graphql-explorer/static/js/1.95afe234.chunk.js"
+    "revision": "a96cd63c22570efe721c",
+    "url": "/circleci-graphql-explorer/static/js/1.a96cd63c.chunk.js"
   },
   {
     "revision": "cb6ffa1134cfe6894036",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/circleci-graphql-explorer/static/media/autocompleteUtils.js.4ce7ba19.flow"
   },
   {
-    "revision": "61264d3d87c0d9ed9871",
-    "url": "/circleci-graphql-explorer/static/js/main.61264d3d.chunk.js"
+    "revision": "4bae0d9fc404aef0fd94",
+    "url": "/circleci-graphql-explorer/static/js/main.4bae0d9f.chunk.js"
   },
   {
     "revision": "4dbec62f1d8e8417afb9cbd19f1268c3",
@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "/circleci-graphql-explorer/static/media/getOutline.js.c04e3998.flow"
   },
   {
-    "revision": "95afe2346e56418fa251",
-    "url": "/circleci-graphql-explorer/static/css/1.590fe2ce.chunk.css"
+    "revision": "a96cd63c22570efe721c",
+    "url": "/circleci-graphql-explorer/static/css/1.912b37fc.chunk.css"
   },
   {
-    "revision": "bd4805a7f0d03cfd52c4c21547c76d85",
+    "revision": "945b19a17a452bf42e3c0aa055b96c1a",
     "url": "/circleci-graphql-explorer/index.html"
   }
 ];
