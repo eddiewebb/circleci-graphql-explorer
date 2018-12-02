@@ -1,5 +1,7 @@
 # CircleCI Interactive Query Explorer (graphiql)
 
+[![CircleCI](https://circleci.com/gh/eddiewebb/circleci-graphql-explorer/tree/master.svg?style=svg)](https://circleci.com/gh/eddiewebb/circleci-graphql-explorer/tree/master)
+
 ## Usage
 
 This react/node app wraps our graphql endpoint with built-in introspection and auto-completion.
