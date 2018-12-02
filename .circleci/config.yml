@@ -2,13 +2,29 @@ version: 2.1
 workflows:
   publish: 
     jobs:
-      - publish:
+      - build:
           filters:
             branches:
               ignore: gh-pages
+      - publish:
+          requires: [build]
+          filters:
+            branches:
+              only: master
 
 
 jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run:
+          command: yarn install
+      - run:
+          name: Build
+          command: |
+            yarn build
   publish:
     docker:
       - image: circleci/node:10
