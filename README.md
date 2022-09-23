@@ -18,7 +18,11 @@ In the project directory, you can run:
 
 ### `yarn install`
 
-Its the first thing you need to do after cloning, but only once.
+Its the first thing you need to do after cloning, but only once.  If you get "yarn not found", then
+
+`npm install --global yarn` then run yarn install once complete.
+
+If you don't have nodejs/npm, install via Homebrew.
 
 ### `yarn start`
 
